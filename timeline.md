@@ -18,7 +18,7 @@ Future business outline.
 - Backend
   - [ ] Design database and setup schema
   - [ ] Have tests on top of schemas
-  - [ ] Create criteria for using a virtualizer
+  - [x] Create criteria for using a virtualizer
 
 - Frontend
   - [x] Deploy an ember repository, 
