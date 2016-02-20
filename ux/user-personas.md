@@ -4,7 +4,7 @@
 
 ---
 
-## Students
+## Group: Students
 
 ### Judith
 
@@ -43,7 +43,7 @@ Judith is in the midst of her first year at the University of Pittsburgh. Still 
 
 ---
 
-## Professors
+## Group: Professors
 
 ### Bill 
 
@@ -52,7 +52,6 @@ Judith is in the midst of her first year at the University of Pittsburgh. Still 
 - Former industry professional
 - Married, 1 kid
 - Pittsburgher, born and raised 
-- Has been shot at in Iraq (not a soldier)
 
 ##### Quotes
 
@@ -85,7 +84,7 @@ Bill is a 45 year old computer science lecturer at the University of Pittsburgh.
 
 ---
 
-## TAs
+## Group: TAs
 
 ### Roger
 
