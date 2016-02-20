@@ -8,13 +8,13 @@ Peeps.
 
 ---
 
-github_ID
-email
-courses: [Course]
-roles: ['student', 'teacher', 'ta']
-student: Student || null
-teacher: Student || null
-ta: Student || null
+- github_ID
+- email
+- courses: [Course]
+- roles: ['student', 'teacher', 'ta']
+- student: Student || null
+- teacher: Student || null
+- ta: Student || null
 
 ---
 
@@ -24,7 +24,7 @@ Special user attributes for student users.
 
 ---
 
-courses: [Course]
+- courses: [Course]
 
 ---
 
@@ -34,7 +34,7 @@ Special user attributes for TA users.
 
 ---
 
-courses: [Course]
+- courses: [Course]
 
 ---
 
@@ -44,7 +44,7 @@ Special user attirbutes for teacher users.
 
 ---
 
-courses: [Course]
+- courses: [Course]
 
 ---
 
@@ -54,8 +54,8 @@ Collection of assignments.
 
 ---
 
-assignments: [Assignment]
-weight: int
+- assignments: [Assignment]
+- weight: int
 
 ---
 
@@ -65,10 +65,10 @@ Template for repositories, synonymous with projects. Contains all metadata for r
 
 ---
 
-name: String
-tests: [Test]
-weight: int
-repository: (GHRepository, contains the gradeshaman.yaml)
+- name: String
+- tests: [Test]
+- weight: int
+- repository: (GHRepository, contains the gradeshaman.yaml)
 
 ---
 
@@ -78,7 +78,7 @@ Template for tests to be run, separate from the results on a per-repository basi
 
 ---
 
-weight: int
+- weight: int
 
 ---
 
@@ -88,10 +88,10 @@ Assignment instances on a per-student basis.
 
 ---
 
-student: Student
-assignment: Assignment
-run_results: [RunResults]
-repository: (GHRepository)
+- student: Student
+- assignment: Assignment
+- run_results: [RunResults]
+- repository: (GHRepository)
 
 ---
 
@@ -101,8 +101,8 @@ Aggregate result of unit tests on an assignment.
 
 ---
 
-test_results: [TestResult]
-comilation_message: String (or null on success)
+- test_results: [TestResult]
+- comilation_message: String (or null on success)
 
 ---
 
@@ -112,6 +112,6 @@ Atomic unit test.
 
 ---
 
-test: Test
-passed: Bool
-error_message: String
+- test: Test
+- passed: Bool
+- error_message: String
