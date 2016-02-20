@@ -6,7 +6,7 @@
 
 ### Judith
 
-![Judith](./judith.jpg "Judith")
+![Judith](./judith.jpeg "Judith")
 
 - 18
 - Freshman student at the University of Pittsburgh
