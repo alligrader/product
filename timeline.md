@@ -9,14 +9,14 @@ Future business outline.
 
 ## 
 - Business 
-  - [ ] Blast furnace 
-  - [ ] Meet with Bill Laboon
+  - [x] Blast furnace 
+  - [x] Meet with Bill Laboon
 
 - Money
-  - [ ] $20 a month
+  - [x] $20 a month
 
 - Backend
-  - [ ] Design database and setup schema
+  - [x] Design database and setup schema
   - [ ] Have tests on top of schemas
   - [x] Create criteria for using a virtualizer
 
@@ -25,8 +25,8 @@ Future business outline.
   - [ ] JJ play with ember
 
 - UI/UX
-  - [ ] List features (draw up the idea)
-  - [ ]  Build mock up
+  - [x] List features (draw up the idea)
+  - [ ] Build mock up
   - [ ] Pick a create CSS framework
 
 ---
