@@ -22,29 +22,40 @@ We provide an automated grading platform for computer science assignments.
 
 ## A-Ha
 
-Our professor expressed frustrasting having to grade assignments manually.
+Our professor and TA expressed frustrasting having to grade assignments manually.
+
+We wanted to guage our projects' progress.
 
 ---
 
 ## Business Thesis
 
+Streamline and standardize the computer science grading experience.
+
 ----
 
 ### The Customer
 
-University professors.
+- University Professors.
+- University Departments.
+- Teaching Assistants.
+- Students.
 
 ----
 
 ### Customer's Pain Point
 
-Long hours of busy work.
+- [Professors and TAs:] Long hours of busy work.
+- [Departments:] Inconsistencies, adjunct onboarding.
+- [Students:] Grade-expectation limbo.
 
 ----
 
 ### Why the Customer Will Buy the Product
 
-Time saved.
+- [Professors and TAs:] Time saved.
+- [Departments:] Standard cirriculum.
+- [Students:] Version control. Immediate results. (Free for students.)
 
 ---
 
