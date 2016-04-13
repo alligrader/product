@@ -6,7 +6,7 @@
 
 ### Tuesday
 
-
+Sessions will be treated as boardroom meetings: professionalism and awareness of time constraints is expected.
 
 ### Thursday
 
