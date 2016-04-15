@@ -10,7 +10,7 @@ Sessions will be treated as boardroom meetings: professionalism and awareness of
 
 ### Thursday
 
-
+Andy and John.
 
 ---
 
