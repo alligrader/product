@@ -20,7 +20,16 @@ Andy and John.
 
 ### Tuesday
 
+The Total Available Market (TAM) is the unrealistic projection if every single generic customer type bought it. Your target market is the population of customers available in your first few years.
 
+The position statement formula, apparently very important:
+For [name of target customer]
+who [statement of customer need]
+[your product] is a [kind of product you are]
+that [statement of key benefit]
+unlike [competing alternative], we [your unique differentiator]
+
+For now, customer segments and value proposition are most important part of the BMC.
 
 ### Thursday
 
