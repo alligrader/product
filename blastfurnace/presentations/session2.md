@@ -1,9 +1,11 @@
-# GradeShaman
+# Alligrader
 
 ---
 
 ## Take-aways
 
+- More applications than originally anticipated
+- Need to prioritize interviews with professors
 
 ---
 
@@ -16,7 +18,7 @@
 
 ----
 
-## Why the Customer Pays
+## Problems and Our Solutions
 
 - [Professors and TAs:] Long hours of busy work, versus time saved.
 - [Departments:] Inconsistencies, adjunct onboarding, versus standard curriculum.
@@ -34,12 +36,15 @@
 
 ## Business Model Canvas
 
+(via canvasizer)
 
+https://canvanizer.com/canvas/MjT5cbYpTKc
 
 ---
 
 ## Business Thesis Update
 
+Unchanged (for now):
 Streamline and standardize the computer science grading experience.
 
 ---

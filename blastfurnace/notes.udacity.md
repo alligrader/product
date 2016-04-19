@@ -134,7 +134,30 @@ An existing market is already established in users and competitors. A Resegmente
 
 ### Lecture 5
 
+Customer relationships involve: getting customers, growing customers, and keeping customers. Should be a funnel.
 
+Understand your customers: Who are they? Who do they influence? Do they pay? Do they regulate? Create user personas, defined with details, a name, etc., and reference it in product development.
+
+Paid demand creation activities:
+- Public relations
+- Advertising
+- Trade shows
+- Webinars
+- E-Mail/Direct mail
+- Social media marketing
+
+Earned demand creation activities:
+- Social Media
+- Journals, magazines, conferences, speeches
+- word-of-mouth
+
+One of the mistakes that startups make is trying to package tons of features into the base product and sell at a base price; consider breaking it up into separate products and selling individually, potentially to different customers.
+
+The customer acquisition cost is the amount it takes per users to "activate", that is, to contact, then engage, then convert to paying customer.
+
+Also consider that loss of customers is inevitable, the process of getting and losing customers is called churn, and should obviously be kept low.
+
+The lifetime value (LTV) is how much money the customers will spend over their experience with your customer. The LTV needs to be greater than the acquisition cost--but keep in mind, it doesn't not need to be greater immediately. The lifetime value could eventually out-pace the acquisition cost and churn/upkeep.
 
 ---
 
