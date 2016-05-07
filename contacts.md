@@ -13,4 +13,4 @@ Jenny | | jlsommer31@gmail.com
 Akhil | | akhilaniff@gmail.com
 Mark Limback | Peerceptiv | mlimbach@peerceptiv.com
 Bill Rooney | Peerceptiv | wfrooney@peerceptiv.com
-Tim James | Chathum University | timothyrjames@gmail.com>
+Tim James | Chathum University & Google | timothyrjames@gmail.com
