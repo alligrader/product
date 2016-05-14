@@ -26,11 +26,11 @@ Krebs himself grades all projects. Therese graded labs. The class did not have q
 
 Therese then spoke about the the TA luncheon. The luncheon was held during finals week (only a couple of weeks ago). She said the attendees were all of the undergrad TAs, plus Mackenzie, Angela, and Ramirez.
 
-Emilee hinted that she was grading, and Angela and Ramirez perked their ears up and immediately were like "What do you _mean_ you were grading?". Emilee explained she was just smell-checking labs, and Angela and Ramirez were like "Undergrad TAs _are not_ supposed to be grading projects or quizzes."
+Emilee hinted that she was grading, and Angela and Ramirez perked their ears up and immediately were like "What do you __mean__ you were grading?". Emilee explained she was just smell-checking labs, and Angela and Ramirez were like "Undergrad TAs __are not__ supposed to be grading projects or quizzes."
 
 Conversation then turned to the importance of manditory labs. Ramirez said there was a professor who didn't make labs manditory. The students had to attend recitation but they didn't have to complete the labs. The result was that the class's grades were lower, and retention was down, because students weren't practicing their fine-grained skills. They were only practicing during projects, which is a course-grained approach. Ramirez thinks that labs need to be graded as a result. However, he's sympathetic to students that don't have time to get labs done because they're working on projects.
 
-Ramirez said that there's also a bit of a trade off in teacher's time. If the teacher has to grade the projects, labs, and exams, he has to make everything easy to grade. Because of this, _Ramirez said the department has been looking into script grading._
+Ramirez said that there's also a bit of a trade off in teacher's time. If the teacher has to grade the projects, labs, and exams, he has to make everything easy to grade. Because of this, **Ramirez said the department has been looking into script grading.**
 
 A student brought up that Farnan, Garrison, and Laboon have been teaching Git. The student said that it would be cool if other professors taught Git like Laboon does. Ramirez said git would be cool, but if a teacher wants to teach git, they necessarily have to remove something else from the curriculum. He was open to it, but just noted that there was another necessary tradeoff.
 
