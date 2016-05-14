@@ -1,6 +1,9 @@
 Therese Dachille
+
 TA, Student
+
 862-438-1146
+
 5/14/16
 
 Therese is a junior, who TA'd both CS 0004 and CS 0401 this semester for the first time. 
