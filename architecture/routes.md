@@ -19,47 +19,78 @@ Below I've listed each route and what it's purpose is. If you disagree with what
 # Routes:
 
 - `POST /api/organizations`
+
     Create a new organization, and a new user with the role "organization admin". This user is the owner of the organization.
+
 - `GET /api/organizations`
+
     Requires AUTH.
+
     This route returns a list of organizations that the logged in user is a member of.
+
 - `GET /api/organizations/<id>`
+
     Requires AUTH.
-     This route returns the public information about a particular organization.
+    This route returns the public information about a particular organization.
+
 - `GET /api/users/<id>`
+
     Requires AUTH.
+
     Get the public information for the user.
+
 - `POST /api/users`
+
     This route is used to create a new user in conjunction with an invite link. The invite link is generated elsewhere (see `POST /classes/<id>/users` and `POST /organizations/<id>/teachers`). The link includes a SHA value that must be passed along as part of the request body (not invite links are the only place where I explicitly mention elements of the request body; everywhere else, more details are withheld).
+
 - `POST /api/classes/<id>/users`
+
     AUTH required
+
     While `POST /api/users` represents making a new student for the first time from an invite link to a class, this route represents adding an existing student to a class.
+
 - `POST /api/classes`
+
     AUTH required
+
     This route represents creating a new class. Only teachers and organization admins are allowed to add classes.
+
 - `GET /api/classes/<id>`
+
     AUTH required
+
     This route returns the data for a class including references to assignments and announcement text.
+
 - `POST /api/organizations/<id>/teachers`
+
     AUTH required
+
     This route is used to generate and send invites out to the teachers, enumerated in the request. The request must be sent by someone with the `organization admin` role.
 - `POST /api/organizations/<id>/billing`
     AUTH required
     This route adds new billing information.
+
 - `GET /api/organizations/<id>/billing`
--   AUTH required
--   This route gets billing information (only the information provided by our 3rd party privder, e.g. BrainTree, Stripe, not like their full card number or anything like that). User token must have the org admin role.
+
+    AUTH required
+
+    This route gets billing information (only the information provided by our 3rd party privder, e.g. BrainTree, Stripe, not like their full card number or anything like that). User token must have the org admin role.
+
 - `DEL /api/organizations/<id>/billing`
     AUTH required
     Deletes billing information. User token must have the org admin role. You cannot edit billing information.
+
 - `DEL /api/users/<id>`
     AUTH required
     Deletes the user account, and removes it from all organization and classes. The user toke must have "self" role on the deleted ID.
+
 - `DEL /api/organizations/<id>`
     AUTH required
     Deletes the organization, removing all classes in that organization. Does not delete students. I don't know what the fuck happens to students in a deleted organization. It's late at night. User token must have `org admin` role.
+
 - `DEL /api/organizations/<id>/classes/<id>`
     AUTH required
     Deletes a class. Teacher must be a member of the class to be able to delete it.
+
 - `GET /invite-link/<token>`
     This route represents a request to join a particular class. Since this request is going to come in from someone clicking an email or following a link, it's going to hit the server before React can get to it. Thus, I have to define some kind of response for it since it's touching the backend. I think we should return React in a certain state (if possible, idk how this works). This route should give the user an HTML page for joining a class. The user has the option to either **Sign In with an existing account** and **add the class to that account**, or to **Create a new account**.
