@@ -66,8 +66,11 @@ Below I've listed each route and what it's purpose is. If you disagree with what
     AUTH required
 
     This route is used to generate and send invites out to the teachers, enumerated in the request. The request must be sent by someone with the `organization admin` role.
+
 - `POST /api/organizations/<id>/billing`
+
     AUTH required
+
     This route adds new billing information.
 
 - `GET /api/organizations/<id>/billing`
@@ -77,20 +80,29 @@ Below I've listed each route and what it's purpose is. If you disagree with what
     This route gets billing information (only the information provided by our 3rd party privder, e.g. BrainTree, Stripe, not like their full card number or anything like that). User token must have the org admin role.
 
 - `DEL /api/organizations/<id>/billing`
+
     AUTH required
+
     Deletes billing information. User token must have the org admin role. You cannot edit billing information.
 
 - `DEL /api/users/<id>`
+
     AUTH required
+
     Deletes the user account, and removes it from all organization and classes. The user toke must have "self" role on the deleted ID.
 
 - `DEL /api/organizations/<id>`
+
     AUTH required
+
     Deletes the organization, removing all classes in that organization. Does not delete students. I don't know what the fuck happens to students in a deleted organization. It's late at night. User token must have `org admin` role.
 
 - `DEL /api/organizations/<id>/classes/<id>`
+
     AUTH required
+
     Deletes a class. Teacher must be a member of the class to be able to delete it.
 
 - `GET /invite-link/<token>`
+
     This route represents a request to join a particular class. Since this request is going to come in from someone clicking an email or following a link, it's going to hit the server before React can get to it. Thus, I have to define some kind of response for it since it's touching the backend. I think we should return React in a certain state (if possible, idk how this works). This route should give the user an HTML page for joining a class. The user has the option to either **Sign In with an existing account** and **add the class to that account**, or to **Create a new account**.
