@@ -1,3 +1,7 @@
+# Update
+
+I have updated these on the `privileges` branch.
+
 # Access Control List Background
 
 An access control list is how websites tell whether or not a user has permission to perform an action. Actions are most commonly "create", "read", "update", or "delete", but other actions are possible too. A permission consists of two things: an action and a status. Having a permission for action X and status Y means "this user can do X when in state Y". The status element represents the fact that a given account can be in one of many different states. For example, a user who fails to pay his monthly bill might have the status of "defaulted", while a normal user may have the status of "active".
